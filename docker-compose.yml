@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+    container_name: node-app
+    ports:
+      - "3000:300"
+    command: npm start
+    

@@ -28,9 +28,9 @@ pipeline{
             steps{
                 script{
                     deploy()
-                    sh "Deployed successfully"
-                    
                 }
+                sh "Deployed successfully"
+                
             }
         }
     }
